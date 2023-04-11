@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculadora</title> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head> 
+	<body>
+		<h1>CALCULADORA</h1>
+		<div id="calculator">
+			<div id="display">
+				<div id="result"></div>
+					<span id="result--number"></span>
+			</div>
+			<div id="keyboard">
+				<button class="quartiary" onclick="voltar()">CE</button>
+				<button class="secondary" onclick="limpar()">C</button>
+				<button class="secondary" onclick="inserir('**')">^</button>
+				<button class="tertiary" onclick="inserir('/')">/</button>
+				<button class="secondary" onclick="inserir('7')">7</button>
+				<button class="secondary" onclick="inserir('8')">8</button>
+				<button class="secondary" onclick="inserir('9')">9</button>
+				<button class="tertiary" onclick="inserir('*')">X</button>
+				<button class="secondary" onclick="inserir('4')">4</button>
+				<button class="secondary" onclick="inserir('5')">5</button>
+				<button class="secondary" onclick="inserir('6')">6</button>
+				<button class="tertiary" onclick="inserir('-')">-</button>
+				<button class="secondary" onclick="inserir('1')">1</button>
+				<button class="secondary" onclick="inserir('2')">2</button>
+				<button class="secondary" onclick="inserir('3')">3</button>
+				<button class="tertiary" onclick="inserir('+')">+</button>
+				<button class="secondary" onclick="inserir('.')">.</button>
+				<button class="secondary" onclick="inserir('0')">0</button>
+				<button class="secondary" onclick="inserir(',')">,</button>
+				<button class="tertiary" onclick="calcular()">=</button>
+			</div>		
+		</div>
+	</body>
+</html>	
